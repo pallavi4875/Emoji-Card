@@ -1,8 +1,8 @@
 // Write your code here.
 import './index.css'
-import {DEFAULT_FILE_SYSTEM_ADAPTER} from 'fast-glob/out/settings'
 
-const NavBar = () => {
+const NavBar = props => {
+  const {Score, topScore} = props
   return (
     <nav className="nav-bar">
       <ul>

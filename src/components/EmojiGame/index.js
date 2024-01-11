@@ -11,3 +11,11 @@ const shuffledEmojisList = () => {
 */
 
 // Write your code here.
+
+import React, {Component} from 'react'
+
+import NavBar from '../NavBar'
+import EmojiCard from '../EmojiCard'
+import WinOrLoseCard from '../WinOrLoseCard'
+
+import './index.css'
